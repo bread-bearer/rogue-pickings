@@ -29,7 +29,6 @@ h4 {
 
 h1 {
 	font-size: 1.875em;
-	border-bottom: 3px #77A466	solid;
 }
 
 h2 {
@@ -45,7 +44,8 @@ h4 {
 }
 
 p {
-	line-height: 2.25em;
+	font-size: 1em;
+	line-height: 36px;
 }
 
 /******** HEADER STYLES ********/
@@ -60,6 +60,7 @@ header h1 {
 	width: 100%;
 	margin: 0;
 	padding: 38px 0 20px 0;
+	border-bottom: 3px #77A466 solid;
 }
 
 header h1 span {
@@ -71,16 +72,17 @@ header nav {
 }
 
 header nav ul {
-	width: 100%;
 	margin: 0;
 	padding: 0;
+	list-style: none;
 }
 
 header nav ul li {
-	font-size: 0.875em;
+	font-size: 0.875rem;
 	font-weight: 700;
 	text-transform: uppercase;
 	padding: 10px 0;
+	width: 100%;
 }
 
 header nav ul li a {
@@ -96,7 +98,6 @@ header nav ul li a {
 	border-top: 3px solid #77A466;
 	border-bottom: 3px solid #77a466;
 }
-
 
 .main-title h2 {
 	color: #45610E;
@@ -115,28 +116,24 @@ header nav ul li a {
 	border-bottom: 5px solid #EEE;
 }
 
-.bottom-section h3 {
-	padding: 30px 0;
-}
-
 .section-one,
 .section-two,
 .section-three {
-	width: 100%;
-	padding: 0 40px;
+	box-sizing: border-box;
 }
 
 .section-one {
-
+	width: 100%;
 }
 
 .section-two {
+	width: 100%;
 	border-top: 5px solid #eee;
 	border-bottom: 5px solid #eee;
 }
 
 .section-three {
-
+	width: 100%;
 }
 
 .bottom-section h3 {
@@ -150,14 +147,13 @@ header nav ul li a {
 
 .menu-list li {
 	color: #45610E;
-	font-size: 1em;
+	font-size: 1rem;
 	line-height: 36px;
 }
 
 /******** FOOTER STYLES ********/
 /* The widths are in a percentage! */
 footer {
-	text-align: center;
 	margin-top: 8px;
 	display: flex;
 	justify-content: center;
@@ -167,5 +163,5 @@ footer span {
 	font-family: 'Galada', cursive;
 	text-transform: lowercase;
 	color: #45610E;
-	font-size: 0.875em;
+	font-size: 0.875rem;
 }
